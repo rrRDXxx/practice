@@ -23,8 +23,6 @@ class MainWindow(QMainWindow):
         self.history = self.load_history()
         self.settings = QSettings("Mallenom", "ImageEditorProj4")
 
-        # self.setFixedSize()
-
         os.makedirs("logs", exist_ok=True)
         os.makedirs("output", exist_ok=True)
 
@@ -108,9 +106,7 @@ class MainWindow(QMainWindow):
         self.chk_sharpen.stateChanged.connect(self.apply_processing)
         self.chk_contour.stateChanged.connect(self.apply_processing)
 
-        print(self.lbl_orig.size())
 
-    # === Методы ===
     def load_image_dialog(self):
         last_dir = self.settings.value("last_dir", "")
         path, _ = QFileDialog.getOpenFileName(
