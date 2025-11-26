@@ -6,6 +6,7 @@ import logging
 from PIL import Image, ImageFilter
 from typing import Tuple, Optional
 import os
+import time
 
 os.makedirs("logs", exist_ok = True)
 
@@ -16,8 +17,23 @@ logging.basicConfig(
     encoding = "utf-8"
 )
 
+def speedtest(func):
+
+    def wrapper(*args, **kwargs):
+
+        start = time.time()
+        result = func(*args, **kwargs)
+        end = time.time()
+
+        print(f"{func.__name__} выполнена за {(end-start) * 1000:.2f}ms")
+
+        return result
+    
+    return wrapper
+
 class ImageProcessor:
 
+    @speedtest
     def load_image(self, path: str) -> Image.Image:
 
         if not os.path.exists(path):
@@ -33,6 +49,8 @@ class ImageProcessor:
 
         return img
 
+    
+    @speedtest
     def get_info(self, img: Image.Image) -> dict:
 
         # QImag
@@ -44,6 +62,7 @@ class ImageProcessor:
             "mode": img.mode
         }
 
+    @speedtest
     def resize(self, img: Image.Image, size: Tuple[int, int]) -> Image.Image:
 
         if size == img.size:
@@ -56,6 +75,7 @@ class ImageProcessor:
 
         return resized
 
+    @speedtest
     def sharpen(self, img: Image.Image) -> Image.Image:
 
         sharpened = img.filter(ImageFilter.SHARPEN)
@@ -64,6 +84,8 @@ class ImageProcessor:
 
         return sharpened
 
+    
+    @speedtest
     def contour(self, img: Image.Image) -> Image.Image:
 
         contoured = img.filter(ImageFilter.CONTOUR)
@@ -72,6 +94,7 @@ class ImageProcessor:
         
         return contoured
 
+    @speedtest
     def process(self, sourceImage: Image.Image, new_size: Tuple[int, int], apply_sharpen: bool, apply_contour: bool) -> Image.Image:
 
         processedImage : Image.Image = sourceImage.copy()
@@ -89,6 +112,7 @@ class ImageProcessor:
 
         return processedImage
 
+    @speedtest
     def save(self, img: Image.Image, path: str):
 
         img.save(path)

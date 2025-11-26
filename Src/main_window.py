@@ -6,6 +6,7 @@ from PyQt6.QtGui import QPixmap, QIcon, QImage
 from PyQt6.QtCore import Qt, QSettings
 from PIL.ImageQt import ImageQt
 from image_processor import ImageProcessor
+from image_processor import speedtest
 
 class MainWindow(QMainWindow):
 
@@ -28,6 +29,7 @@ class MainWindow(QMainWindow):
 
         self.setup_ui()
 
+    @speedtest
     def setup_ui(self):
 
         self.setWindowTitle("Редактор изображений - Проект 4 (Малленом Системс)")
@@ -116,6 +118,7 @@ class MainWindow(QMainWindow):
         if path:
             self.load_image(path)
 
+    @speedtest
     def load_image(self, path: str):
 
         try:
@@ -137,6 +140,7 @@ class MainWindow(QMainWindow):
 
             QMessageBox.critical(self, "Ошибка", f"Не удалось открыть файл:\n{e}")
 
+    @speedtest
     def display_image(self, pil_img, label: QLabel):
 
         if pil_img is None: 
@@ -149,6 +153,7 @@ class MainWindow(QMainWindow):
         label.setPixmap(pixmap.scaled(label.size(), Qt.AspectRatioMode.KeepAspectRatio,
                                      Qt.TransformationMode.SmoothTransformation))
 
+    @speedtest
     def update_info(self):
 
         if not self.original_img:
@@ -174,6 +179,7 @@ class MainWindow(QMainWindow):
         self.height_spin.setValue(info['height'])
         self.width_spin.blockSignals(False)
         self.height_spin.blockSignals(False)
+
 
     def apply_processing(self):
 
@@ -234,6 +240,7 @@ class MainWindow(QMainWindow):
             self.add_history("Сохранение", {"path": path})
             QMessageBox.information(self, "Готово", f"Изображение сохранено:\n{path}")
 
+    @speedtest
     def add_history(self, action: str, params: dict = None):
         if params is None:
             params = {}
@@ -246,6 +253,7 @@ class MainWindow(QMainWindow):
         with open("history.json", "w", encoding="utf-8") as f:
             json.dump(self.history, f, indent=2, ensure_ascii=False)
 
+    @speedtest
     def load_history(self):
         if os.path.exists("history.json"):
             try:
@@ -255,10 +263,12 @@ class MainWindow(QMainWindow):
                 return []
         return []
 
+    @speedtest
     def dragEnterEvent(self, event):
         if event.mimeData().hasUrls():
             event.acceptProposedAction()
 
+    @speedtest
     def dropEvent(self, event):
         url = event.mimeData().urls()[0]
         path = url.toLocalFile()

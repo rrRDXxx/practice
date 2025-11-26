@@ -22787,5 +22787,580 @@
       "sharpen": false,
       "contour": false
     }
+  },
+  {
+    "time": "2025-11-26 19:15:53",
+    "action": "Обработка",
+    "params": {
+      "size": [
+        3509,
+        2326
+      ],
+      "sharpen": false,
+      "contour": false
+    }
+  },
+  {
+    "time": "2025-11-26 19:15:53",
+    "action": "Загрузка",
+    "params": {
+      "path": "C:/Users/TestUser/Pictures/forge_result.png"
+    }
+  },
+  {
+    "time": "2025-11-26 19:16:00",
+    "action": "Обработка",
+    "params": {
+      "size": [
+        520,
+        524
+      ],
+      "sharpen": false,
+      "contour": false
+    }
+  },
+  {
+    "time": "2025-11-26 19:16:00",
+    "action": "Загрузка",
+    "params": {
+      "path": "C:/Users/TestUser/Pictures/photo_2025-11-20_21-07-23.jpg"
+    }
+  },
+  {
+    "time": "2025-11-26 19:16:03",
+    "action": "Обработка",
+    "params": {
+      "size": [
+        521,
+        524
+      ],
+      "sharpen": false,
+      "contour": false
+    }
+  },
+  {
+    "time": "2025-11-26 19:16:04",
+    "action": "Обработка",
+    "params": {
+      "size": [
+        522,
+        524
+      ],
+      "sharpen": false,
+      "contour": false
+    }
+  },
+  {
+    "time": "2025-11-26 19:16:04",
+    "action": "Обработка",
+    "params": {
+      "size": [
+        523,
+        524
+      ],
+      "sharpen": false,
+      "contour": false
+    }
+  },
+  {
+    "time": "2025-11-26 19:16:04",
+    "action": "Обработка",
+    "params": {
+      "size": [
+        524,
+        524
+      ],
+      "sharpen": false,
+      "contour": false
+    }
+  },
+  {
+    "time": "2025-11-26 19:16:05",
+    "action": "Обработка",
+    "params": {
+      "size": [
+        525,
+        524
+      ],
+      "sharpen": false,
+      "contour": false
+    }
+  },
+  {
+    "time": "2025-11-26 19:16:05",
+    "action": "Обработка",
+    "params": {
+      "size": [
+        526,
+        524
+      ],
+      "sharpen": false,
+      "contour": false
+    }
+  },
+  {
+    "time": "2025-11-26 19:16:05",
+    "action": "Обработка",
+    "params": {
+      "size": [
+        527,
+        524
+      ],
+      "sharpen": false,
+      "contour": false
+    }
+  },
+  {
+    "time": "2025-11-26 19:16:05",
+    "action": "Обработка",
+    "params": {
+      "size": [
+        528,
+        524
+      ],
+      "sharpen": false,
+      "contour": false
+    }
+  },
+  {
+    "time": "2025-11-26 19:16:06",
+    "action": "Обработка",
+    "params": {
+      "size": [
+        529,
+        524
+      ],
+      "sharpen": false,
+      "contour": false
+    }
+  },
+  {
+    "time": "2025-11-26 19:16:06",
+    "action": "Обработка",
+    "params": {
+      "size": [
+        530,
+        524
+      ],
+      "sharpen": false,
+      "contour": false
+    }
+  },
+  {
+    "time": "2025-11-26 19:16:06",
+    "action": "Обработка",
+    "params": {
+      "size": [
+        531,
+        524
+      ],
+      "sharpen": false,
+      "contour": false
+    }
+  },
+  {
+    "time": "2025-11-26 19:16:06",
+    "action": "Обработка",
+    "params": {
+      "size": [
+        532,
+        524
+      ],
+      "sharpen": false,
+      "contour": false
+    }
+  },
+  {
+    "time": "2025-11-26 19:16:06",
+    "action": "Обработка",
+    "params": {
+      "size": [
+        533,
+        524
+      ],
+      "sharpen": false,
+      "contour": false
+    }
+  },
+  {
+    "time": "2025-11-26 19:16:06",
+    "action": "Обработка",
+    "params": {
+      "size": [
+        534,
+        524
+      ],
+      "sharpen": false,
+      "contour": false
+    }
+  },
+  {
+    "time": "2025-11-26 19:16:06",
+    "action": "Обработка",
+    "params": {
+      "size": [
+        535,
+        524
+      ],
+      "sharpen": false,
+      "contour": false
+    }
+  },
+  {
+    "time": "2025-11-26 19:16:06",
+    "action": "Обработка",
+    "params": {
+      "size": [
+        536,
+        524
+      ],
+      "sharpen": false,
+      "contour": false
+    }
+  },
+  {
+    "time": "2025-11-26 19:16:06",
+    "action": "Обработка",
+    "params": {
+      "size": [
+        537,
+        524
+      ],
+      "sharpen": false,
+      "contour": false
+    }
+  },
+  {
+    "time": "2025-11-26 19:16:06",
+    "action": "Обработка",
+    "params": {
+      "size": [
+        538,
+        524
+      ],
+      "sharpen": false,
+      "contour": false
+    }
+  },
+  {
+    "time": "2025-11-26 19:16:06",
+    "action": "Обработка",
+    "params": {
+      "size": [
+        539,
+        524
+      ],
+      "sharpen": false,
+      "contour": false
+    }
+  },
+  {
+    "time": "2025-11-26 19:16:06",
+    "action": "Обработка",
+    "params": {
+      "size": [
+        540,
+        524
+      ],
+      "sharpen": false,
+      "contour": false
+    }
+  },
+  {
+    "time": "2025-11-26 19:16:06",
+    "action": "Обработка",
+    "params": {
+      "size": [
+        541,
+        524
+      ],
+      "sharpen": false,
+      "contour": false
+    }
+  },
+  {
+    "time": "2025-11-26 19:16:06",
+    "action": "Обработка",
+    "params": {
+      "size": [
+        542,
+        524
+      ],
+      "sharpen": false,
+      "contour": false
+    }
+  },
+  {
+    "time": "2025-11-26 19:16:06",
+    "action": "Обработка",
+    "params": {
+      "size": [
+        543,
+        524
+      ],
+      "sharpen": false,
+      "contour": false
+    }
+  },
+  {
+    "time": "2025-11-26 19:16:06",
+    "action": "Обработка",
+    "params": {
+      "size": [
+        544,
+        524
+      ],
+      "sharpen": false,
+      "contour": false
+    }
+  },
+  {
+    "time": "2025-11-26 19:16:06",
+    "action": "Обработка",
+    "params": {
+      "size": [
+        545,
+        524
+      ],
+      "sharpen": false,
+      "contour": false
+    }
+  },
+  {
+    "time": "2025-11-26 19:16:06",
+    "action": "Обработка",
+    "params": {
+      "size": [
+        546,
+        524
+      ],
+      "sharpen": false,
+      "contour": false
+    }
+  },
+  {
+    "time": "2025-11-26 19:16:06",
+    "action": "Обработка",
+    "params": {
+      "size": [
+        547,
+        524
+      ],
+      "sharpen": false,
+      "contour": false
+    }
+  },
+  {
+    "time": "2025-11-26 19:16:06",
+    "action": "Обработка",
+    "params": {
+      "size": [
+        548,
+        524
+      ],
+      "sharpen": false,
+      "contour": false
+    }
+  },
+  {
+    "time": "2025-11-26 19:16:06",
+    "action": "Обработка",
+    "params": {
+      "size": [
+        549,
+        524
+      ],
+      "sharpen": false,
+      "contour": false
+    }
+  },
+  {
+    "time": "2025-11-26 19:16:06",
+    "action": "Обработка",
+    "params": {
+      "size": [
+        550,
+        524
+      ],
+      "sharpen": false,
+      "contour": false
+    }
+  },
+  {
+    "time": "2025-11-26 19:16:06",
+    "action": "Обработка",
+    "params": {
+      "size": [
+        551,
+        524
+      ],
+      "sharpen": false,
+      "contour": false
+    }
+  },
+  {
+    "time": "2025-11-26 19:16:06",
+    "action": "Обработка",
+    "params": {
+      "size": [
+        552,
+        524
+      ],
+      "sharpen": false,
+      "contour": false
+    }
+  },
+  {
+    "time": "2025-11-26 19:16:06",
+    "action": "Обработка",
+    "params": {
+      "size": [
+        553,
+        524
+      ],
+      "sharpen": false,
+      "contour": false
+    }
+  },
+  {
+    "time": "2025-11-26 19:16:06",
+    "action": "Обработка",
+    "params": {
+      "size": [
+        554,
+        524
+      ],
+      "sharpen": false,
+      "contour": false
+    }
+  },
+  {
+    "time": "2025-11-26 19:16:06",
+    "action": "Обработка",
+    "params": {
+      "size": [
+        555,
+        524
+      ],
+      "sharpen": false,
+      "contour": false
+    }
+  },
+  {
+    "time": "2025-11-26 19:16:06",
+    "action": "Обработка",
+    "params": {
+      "size": [
+        556,
+        524
+      ],
+      "sharpen": false,
+      "contour": false
+    }
+  },
+  {
+    "time": "2025-11-26 19:16:12",
+    "action": "Сохранение",
+    "params": {
+      "path": "C:/Users/TestUser/Pictures/processed.png"
+    }
+  },
+  {
+    "time": "2025-11-26 19:19:14",
+    "action": "Обработка",
+    "params": {
+      "size": [
+        3509,
+        2326
+      ],
+      "sharpen": false,
+      "contour": false
+    }
+  },
+  {
+    "time": "2025-11-26 19:19:14",
+    "action": "Загрузка",
+    "params": {
+      "path": "C:/Users/TestUser/Pictures/forge_result.png"
+    }
+  },
+  {
+    "time": "2025-11-26 19:19:16",
+    "action": "Обработка",
+    "params": {
+      "size": [
+        3509,
+        2327
+      ],
+      "sharpen": false,
+      "contour": false
+    }
+  },
+  {
+    "time": "2025-11-26 19:19:16",
+    "action": "Обработка",
+    "params": {
+      "size": [
+        3509,
+        2328
+      ],
+      "sharpen": false,
+      "contour": false
+    }
+  },
+  {
+    "time": "2025-11-26 19:19:17",
+    "action": "Обработка",
+    "params": {
+      "size": [
+        3509,
+        2329
+      ],
+      "sharpen": false,
+      "contour": false
+    }
+  },
+  {
+    "time": "2025-11-26 19:19:17",
+    "action": "Обработка",
+    "params": {
+      "size": [
+        3509,
+        2330
+      ],
+      "sharpen": false,
+      "contour": false
+    }
+  },
+  {
+    "time": "2025-11-26 19:19:17",
+    "action": "Обработка",
+    "params": {
+      "size": [
+        3509,
+        2331
+      ],
+      "sharpen": false,
+      "contour": false
+    }
+  },
+  {
+    "time": "2025-11-26 19:19:17",
+    "action": "Обработка",
+    "params": {
+      "size": [
+        3509,
+        2332
+      ],
+      "sharpen": false,
+      "contour": false
+    }
+  },
+  {
+    "time": "2025-11-26 19:19:19",
+    "action": "Сохранение",
+    "params": {
+      "path": "C:/Users/TestUser/Desktop/practice/Src/output/processed.png"
+    }
   }
 ]
